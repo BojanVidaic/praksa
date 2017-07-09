@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schuster-Engineering GmbH - Startseite</title>
+<!--	<link href="./assets/css/bootstrap.css" rel="stylesheet"> -->
+<!--    prvi font-->
+<!--    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">-->
+<!--    drugi font-->
+<!--    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">-->
+<!--    treci font-->
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<!--    -->
+    <link href="./assets/css/startseite.css" rel="stylesheet"> 
+    <link href="./assets/css/global.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/favico/favicon-32x32.png" sizes="32x32" />
+</head>
+<body ng-app="schu-eng">
+    <div class="total">
+        <div class="menu" ui-view="side-bar"></div>
+        <div>
+            <div class="about" ui-view="about"></div>
+            <div class="content" ui-view="content"></div>
+        </div>
+        <div class='footer'>
+            <p>&copy;2017 Schuster-Engineering GmbH, all rights reserved. </p>
+        </div>
+    </div>
+    
+	<script src="./assets/js/angular/angular.js"></script>
+	<script src="./assets/js/angular-resource/angular-resource.js"></script>
+	<script src="./assets/js/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./app/app.module.js"></script>
+    
+    <script src="./app/components/core/core.module.js"></script>
+    <script src="./app/components/core/core.route.js"></script>
+    <script src="./app/components/core/side-bar.controller.js"></script>
+    <script src="./app/components/core/scroll.controller.js"></script>
+    <script src="./app/components/core/ref.controller.js"></script>
+    <script src="./app/components/core/kont.controller.js"></script>
+
+	
+	
+
+</body>
+</html>

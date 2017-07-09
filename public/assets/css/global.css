@@ -1,0 +1,342 @@
+/*prosla boja: #2c50b2*/
+
+* {
+/*    font-family: 'Cabin', sans-serif;*/
+/*    drugi font*/
+/*    font-family: 'Electrolize', sans-serif;*/
+/*    treci font*/
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*prikazivanje skrola odmah kako ne bi pomerao stranicu */
+html {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background: url("../../img/bckg6.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100%;
+    width:70%;
+}
+
+.total {
+    background: rgba(255, 255, 255, 0.9);
+    height: auto;
+    width: 100%;
+}
+
+hr {
+    margin:0px 0;
+}
+
+.menu {
+    width:100%;
+    margin: 0 auto;
+    border-bottom:3px solid #343399;
+    background-color: white;
+    background-image: url("../../img/headback.jpg");
+/*    background-image: linear-gradient(to bottom, rgba(255,255,255,0.9) 100%,rgba(255,255,255,0.9) 100%), url("../../img/headback.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: 60% 10%;
+}
+
+.about {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+/*    border-top: 3px solid #343399;*/
+    border-bottom: 2px solid #343399;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.about * {
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+.about h3 {
+    margin: 25px auto;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.content {
+    display: inline-block;
+    width:70%;
+}
+
+.sideBar {
+    color: white;
+    background: rgba(255, 255, 255, 0.7);
+    list-style-type: none;
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    padding:10px 0;
+}
+
+.sideBar li { 
+    display: inline-block;  
+}
+
+.sideBar li:hover a {
+    color: #343399;
+}
+
+.sideBar a {
+    text-decoration: none;
+    color:black;
+    padding:10px 10px;
+
+}
+
+.activeItem a {
+    color: #343399;
+/*    background-color:white;*/
+    border-bottom: 4px solid white;
+/*
+    border-top: 3px solid #343399;
+    border-right: 3px solid #343399;
+    border-left: 3px solid #343399;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+*/
+}
+
+img {
+    height: 300px;
+    margin-top: 20px;
+}
+
+#logo {
+    height: 150px;
+}
+
+/*promena boje selektovanog teksta*/
+::selection {
+    background: #343399;
+    color:white;
+}
+
+h2 {
+    margin:20px auto;
+}
+
+h3 {
+    margin: 30px 0 10px 0;
+    color: #343399;  
+}
+
+h4 {
+    margin: 20px 0 5px 0;
+}
+
+p {
+    margin:10px auto;
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+ol {
+    margin:5px 20px;
+}
+
+ol li {
+    margin:10px;
+    color: #343399;
+}
+
+ol span {
+    display:block;
+    color:black;
+}
+
+.contli li{
+    list-style-type: square;
+    color: black;
+    margin: 5px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #343399;
+}
+
+.qualman {
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+
+.qualman img {
+    width:100%;
+    height: auto;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.qualman p {
+    margin-left: 20px;
+    margin-bottom:0px;
+}
+
+.added {
+    margin-top: 25px;
+
+}
+    
+.added img {
+    width:80px;
+    height:auto;
+    margin:5px;
+}
+
+.mala {
+    width:80px;
+    height:auto;
+    margin:5px;
+    position:relative;
+    animation-name: slideup;
+    animation-duration: 0.5s;
+}
+
+.floatr {
+    float: right;
+}
+
+#backtotop {
+    color: black;
+/*    background-color : white;*/
+    border-top : 10px solid #343399;
+/*    border-left : 1px solid #343399;*/
+/*    border-right : 1px solid #343399;*/
+    border-radius : 37px;
+    padding : 20px;
+    position : fixed;
+    bottom : 35px;
+    left: 20%;
+    font-size : 20px;
+    cursor: pointer;
+}
+
+
+.prdk {
+    
+}
+
+.prdk img {
+    display: inline-block;
+    width: 101px;
+    height: 143px;
+    margin-right: 50px;
+    padding-right: 30px;
+    vertical-align: bottom;
+    border-right: 3px solid #343399;
+    position: relative;
+    animation-name: slideright;
+    animation-duration: 0.5s;
+}
+
+.prdk p {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin-top:30px;
+    position: relative;
+    animation-name: slideleft;
+    animation-duration: 0.5s;
+}
+
+.footer {
+    height: 50px;
+    width: 70%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center;
+    color: #343399;
+    background: rgba(255, 255, 255, 1);
+    border-top: 3px solid #343399;
+    z-index: 150;
+}
+
+.footer p {
+    text-align: center;
+    width:100%;
+}
+
+.lastp {
+    height: 70px;
+}
+
+#mail {
+    position: relative;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.form-group input {
+    width:30%;
+    margin-left: 10px;
+}
+
+.form-group label {
+    color: #343399;
+}
+
+.form-group textarea {
+    margin-left: 10px;
+    width: 100%;
+    resize: none;
+}
+
+#mail button {
+    color: #343399;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.sent {
+    animation-name: sent;
+    animation-duration: 0.5s;
+}
+
+
+/*animacije*/
+@keyframes slideup {
+    from {top: 20px; opacity:0.5;}
+    to {top: 0px;opacity:1;}
+}
+
+@keyframes slideright {
+    from {left: -20px; opacity:0.5;}
+    to {left: 0px;opacity:1;}
+}
+
+@keyframes slideleft {
+    from {left: 20px; opacity:0.5;}
+    to {left: 0px;opacity:1;}
+}
+
+@keyframes sent {
+    from {left: 0px; opacity:1;}
+    to {left: 500px;opacity:0;}
+}

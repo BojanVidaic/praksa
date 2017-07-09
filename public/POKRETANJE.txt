@@ -1,0 +1,5 @@
+otvorim konzolu: prozor - cmd
+kucam:
+http-server C:\Users\bojan\Desktop\De\SchuEng
+
+otvorim Google Chrome, kucam localhost:8080

@@ -1,0 +1,31 @@
+<img id="logo" src="./img/schenglogo.jpg"/>
+<ul class="sideBar">
+<!--    <li><img id="logo" src="./img/schenglogo.jpg"/></li>-->
+    <li ng-class="{activeItem:sbc.isActive('startseite')}">
+        <a ui-sref='main.startseite' tooltip-data="'Startseite'" cr-tooltip><span>Startseite</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('leistungen')}">
+        <a ui-sref='main.leistungen' tooltip-data="'Leistungen'" cr-tooltip><span>Leistungen</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('philosophie')}">
+        <a ui-sref='main.philosophie' tooltip-data="'Philosophie'" cr-tooltip><span>Philosophie</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('produkte')}">
+        <a ui-sref='main.produkte' tooltip-data="'Produkte'" cr-tooltip><span>Produkte</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('maschinenpark')}">
+        <a ui-sref='main.maschinenpark' tooltip-data="'Maschinenpark'" cr-tooltip><span>Maschinenpark</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('qualitätsmanagement')}">
+        <a ui-sref='main.qualitätsmanagement' tooltip-data="'Qualitätsmanagement'" cr-tooltip><span>Qualitätsmanagement</span></a>
+    </li>
+    <li ng-class="{activeItem:sbc.isActive('referenzen')}">
+        <a ui-sref='main.referenzen' tooltip-data="'Referenzen'" cr-tooltip><span>Referenzen</span></a>
+    </li> 
+    <li ng-class="{activeItem:sbc.isActive('kontakt')}">
+        <a ui-sref='main.kontakt' tooltip-data="'Kontakt'" cr-tooltip><span>Kontakt</span></a>
+    </li> 
+    <li ng-class="{activeItem:sbc.isActive('impressum')}">
+        <a ui-sref='main.impressum' tooltip-data="'Impressum'" cr-tooltip><span>Impressum</span></a>
+    </li> 
+</ul>
